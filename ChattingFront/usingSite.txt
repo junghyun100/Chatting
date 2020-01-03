@@ -1,0 +1,2 @@
+fontawesome = for using icons
+google fonts = for using fonts
