@@ -1,0 +1,99 @@
+.chats-body {
+  padding: 0px;
+}
+.chats-body .header,
+.chats-body .status-bar {
+  padding: 0px 20px;
+}
+
+.chat-screen {
+  background-image: url("../image/pattern.png");
+  min-height: 100vh;
+}
+
+.chat_write {
+  position: fixed;
+  bottom: 50px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  padding: 5px 20px;
+  justify-content: space-between;
+  background-color: #fcfcfc;
+  border-radius: 25px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.chat_write i {
+  font-size: 22px;
+}
+.chat__write-column:nth-child(2) {
+  width: 80%;
+}
+.chat__write-column input {
+  padding: 20px;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+}
+
+.chat-screen .chat__messages {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+}
+.chat__messages .chat__timestamp {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 27px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.message {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.message .message__content {
+  width: 80%;
+}
+.incoming-message img {
+  width: 50px;
+  border-radius: 15px;
+  margin-right: 30px;
+}
+.sent-message {
+  align-self: flex-end;
+}
+
+.incoming-message {
+  align-self: flex-start;
+}
+.message .message__bubble {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+.incoming-message .message__author {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+}
